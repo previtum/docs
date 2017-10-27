@@ -99,7 +99,7 @@ The operation returns:
 
    { "acknowledged" : true, "deletedCount" : 1 }
    
-The following operation deletes the first document with ``expiryts`` greater 
+The following operation deletes the first document with ``expiryts`` less 
 than ``ISODate("2015-11-01T12:40:15Z")``
 
 .. code-block:: javascript
